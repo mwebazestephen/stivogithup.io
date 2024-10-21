@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+*{
+    color: white;
+}
+.margin{
+    margin: 100px;
+}
+.image-section,.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-section{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.col{
+    width: 33.33%;
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.col a{
+    text-decoration: none;
+}
+.col ul li{
+    list-style: none;
+}
+.center{
+    text-align: center;
+}
